@@ -24,6 +24,7 @@
   <script>
     const Graph = ForceGraphAR()
       (document.getElementById('3d-graph'))
+      .markerAttrs({'type': 'pattern', 'url': './pattern-qr-code.patt'})
       .jsonUrl('./index.json')
       .glScale(160)
       .yOffset(1.8)
